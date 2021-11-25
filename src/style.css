@@ -1,0 +1,62 @@
+body{
+    margin: auto;
+    width: 100%;
+    background-color: #E2DFD8;
+    font-family: 'Amatic SC', cursive; 
+    color: #522915;
+}
+#content{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto auto auto;    
+}
+
+#mainpage{
+    grid-area: 2 /1 / span 1 / span 10;
+    height: 85vh;
+    width: 100%;
+    background-image: url(/src/images/cookies.jpg);
+    border-top: 3px solid #E3C9A8;
+    border-bottom: 3px solid #E3C9A8;
+    background-size:cover;
+    background-position: center;
+    padding-left: 5%;
+    font-size: 3em;
+    color: #522915;
+}   
+
+#header{
+    grid-area: 1 /1 / span 1 / span 10;
+    background-color: #E2DFD8;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    gap: 5%;         
+}
+
+#menulink{
+    font-family: 'Amatic SC', cursive;
+    display: inline-block;
+    padding:5px;
+}
+
+#header > h1:hover, #menulink:hover{
+    border-bottom: 1px solid #141414;
+    padding-bottom: 1px;
+    cursor: pointer;
+}
+
+#footer{
+    grid-area: 4 / 1 / span 1 / span 10;
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #522915;
+}
+
+
+
