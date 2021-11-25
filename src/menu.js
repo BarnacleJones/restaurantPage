@@ -7,8 +7,7 @@ function renderMenu(){
     renderHeader()
     
     let mainpage = document.createElement("div");
-    mainpage.innerHTML = `
-    
+    mainpage.innerHTML = `    
     <br><br><br>
     <h1>Menu</h1>
     <br>
@@ -20,11 +19,10 @@ function renderMenu(){
     <br>
     <h2>Cinnamon's special</h2>
     <h3>White chocolate and coffee beans, one of a kind</h3>
-
-      `
+    `
     homePage.appendChild(mainpage);
     mainpage.setAttribute("id", "mainpage")
-    //alert('load')  
+   
     footer(); 
 }
 

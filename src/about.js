@@ -4,8 +4,7 @@ import{footer} from './footer';
 function renderAbout(){
     let homePage = document.getElementById("content");
     homePage.innerHTML = "";
-    renderHeader()
-    
+    renderHeader()   
     
     let mainpage = document.createElement("div");
     mainpage.innerHTML = `    
@@ -22,7 +21,7 @@ function renderAbout(){
     `
     homePage.appendChild(mainpage);
     mainpage.setAttribute("id", "mainpage")
-    //alert('load')  
+
     footer(); 
 }
 

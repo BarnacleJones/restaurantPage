@@ -20,7 +20,7 @@ function renderMain(){
           `
         homePage.appendChild(mainpage);
         mainpage.setAttribute("id", "mainpage")
-        //alert('load')   
+        
         footer();
   
 }
