@@ -15,7 +15,7 @@ body{
     grid-area: 2 /1 / span 1 / span 10;
     height: 85vh;
     width: 100%;
-    background-image: url(/src/images/cookies.jpg);
+    background-image: url(https://images.unsplash.com/photo-1500511599662-5441d83fae18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     border-top: 3px solid #E3C9A8;
     border-bottom: 3px solid #E3C9A8;
     background-size:cover;
